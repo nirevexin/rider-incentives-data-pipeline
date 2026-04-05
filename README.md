@@ -2,6 +2,7 @@
 
 ## Structure
 
+```
 rider-incentives-data-pipeline/ 
 ├── src/ 
 │   └── rider-incentives-data-pipeline.py 
@@ -10,6 +11,7 @@ rider-incentives-data-pipeline/
 ├── README.md 
 │
 └── requirements.txt
+```
  
 ## Overview
 This project simulates a real-world data engineering workflow for a delivery platform. \
