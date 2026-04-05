@@ -27,7 +27,7 @@ External APIs (JSON) \
         ↓ \
 Data Ingestion (requests) \
         ↓ \
-Data Validation & Cleaning
+Data Validation & Cleaning \
         ↓ \
 Business Logic (Eligibility + Tiering) \
         ↓ \
