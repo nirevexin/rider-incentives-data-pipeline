@@ -5,7 +5,7 @@
 rider-incentives-data-pipeline/ \
 ├── LICENSE
 │\
-├── src/\
+├── src/ \
 │   └── rider-incentives-data-pipeline.py \   
 │ \
 └── README.md 
@@ -26,9 +26,9 @@ Data Ingestion (requests) \
         ↓ \
 Data Validation & Cleaning
         ↓ \
-Business Logic (Eligibility + Tiering)
+Business Logic (Eligibility + Tiering) \
         ↓ \
-Promo Code Allocation
+Promo Code Allocation \
         ↓ \
 Webhook Notification (POST request) 
 
