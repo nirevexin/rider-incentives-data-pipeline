@@ -2,13 +2,14 @@
 
 ## Structure
 
-rider-incentives-data-pipeline/ \
+rider-incentives-data-pipeline/ 
+├── src/ 
+│   └── rider-incentives-data-pipeline.py 
 ├── LICENSE
-│\
-├── src/ \
-│   └── rider-incentives-data-pipeline.py \   
-│ \
-└── README.md 
+│
+├── README.md 
+│
+└── requirements.txt
  
 ## Overview
 This project simulates a real-world data engineering workflow for a delivery platform. \
@@ -84,10 +85,23 @@ A rider is eligible if:
 - pip
 
 1. Clone the repository:
+   
+```bash
+git clone https://github.com/nirevexin/rider-incentives-data-pipeline
+cd rider-incentives-data-pipeline
+```
+
+2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
-python src/pipeline.py
 ```
+3. Run the pipeline:
+
+```bash
+python src/rider-incentives-data-pipeline.py
+```
+
 
 ##  Example Output
 - Total riders processed
