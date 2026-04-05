@@ -1,3 +1,10 @@
+"""
+End-to-end data pipeline that processes rider performance data,
+assigns incentive tiers, and triggers notifications via webhook.
+
+Simulates a real-world data engineering use case.
+"""
+
 import requests
 import json
 
