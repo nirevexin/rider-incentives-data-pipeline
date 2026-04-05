@@ -14,8 +14,9 @@ rider-incentives-data-pipeline/
 ```
  
 ## Overview
-This project simulates a real-world data engineering workflow for a delivery platform. \
-It ingests rider performance data and promotional codes from external APIs, applies business logic to determine eligibility and tier classification, assigns incentives, and triggers notifications via webhook.\
+This project simulates a real-world data engineering workflow for a delivery platform. 
+
+It ingests rider performance data and promotional codes from external APIs, applies business logic to determine eligibility and tier classification, assigns incentives, and triggers notifications via webhook.
 
 The goal is to demonstrate an end-to-end data pipeline, including data ingestion, transformation, and operational output.
 
